@@ -5,9 +5,9 @@ const mainImage = document.querySelector('#largeImg');
 document.addEventListener('click', function (e) {
   let clickedImg;
 
-  if (e.target.tagName === 'img') {
+  if (e.target.tagName === 'IMG') {
     clickedImg = e.target;
-  } else if (e.target.tagName === 'a') {
+  } else if (e.target.tagName === 'A') {
     clickedImg = e.target.querySelector('img');
   }
 
